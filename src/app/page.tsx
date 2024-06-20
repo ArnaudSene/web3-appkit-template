@@ -1,3 +1,4 @@
+import Helper from "@/components/Helper";
 import { ConnectButton } from "./layout";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
 		<div>
 			<h1 className="text-3xl font-bold underline"></h1>
 			<ConnectButton />
+			<Helper />
 		</div>
 	)
 }
